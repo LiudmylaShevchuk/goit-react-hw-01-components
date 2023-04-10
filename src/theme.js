@@ -42,16 +42,16 @@ export const theme = {
       l: '25px',
     },
   },
-  // shadows: {
-  //   one: '2px 2px 15px 8px #AFEEEE',
-  // },
-  // radii: {
-  //   borderRadius: {
-  //     s: '5px',
-  //     l: '15px',
-  //     circle: '50%',
-  //   },
-  // },
+  shadows: {
+    one: '2px 2px 15px 8px #AFEEEE',
+  },
+  radii: {
+    borderRadius: {
+      s: '5px',
+      l: '15px',
+      circle: '50%',
+    },
+  },
   sizes: {
     width: {
       image: '200px',
