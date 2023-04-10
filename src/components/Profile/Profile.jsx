@@ -13,7 +13,7 @@ import {
   UserStatsQuantity,
 } from './Profile.styled';
 
-export const Profile = ({ username, tag, location, avatar, stats }) => {
+const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <UserCard>
       <UserDescription>
@@ -50,5 +50,7 @@ Profile.propTypes = {
     location: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
     stats: PropTypes.object,
-  }),
+  }).isRequired,
 };
+
+export default Profile;
