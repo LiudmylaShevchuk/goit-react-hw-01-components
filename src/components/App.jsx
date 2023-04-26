@@ -8,12 +8,13 @@ import data from '../data.json';
 import friends from '../friends.json';
 import transactions from '../transactions.json';
 
-import { ThemeProvider } from 'styled-components';
-import { theme } from 'theme.js';
+// import { ThemeProvider } from 'styled-components';
+// import { theme } from 'theme.js';
 
 export const App = () => {
   return (
-    <ThemeProvider theme={theme}>
+    // <ThemeProvider theme={theme}>
+<div>
 <Profile
   username={user.username}
   tag={user.tag}
@@ -28,7 +29,8 @@ export const App = () => {
       <FriendList friends={friends} /> 
 
       <TransactionHistory items={transactions} />
-    </ThemeProvider>
+      </div>
+    // </ThemeProvider>
   );
 };
 
